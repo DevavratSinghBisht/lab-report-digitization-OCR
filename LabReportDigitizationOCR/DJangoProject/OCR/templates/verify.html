@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verify</title>
+</head>
+<body>
+
+<b>You Data in Our DataBase is</b> <br>
+
+BLOOD UREA NITROGEN (BUN)  : {{d0}}	<br>
+CREATININE - SERUM         : {{d1}} <br>
+URIC ACID  				   : {{d2}} <br>
+CALCIUM 				   : {{d3}} <br>
+
+<b>Enter data to alter else don't enter</b> <br> <br> <br>
+
+<div>
+<form action="update" >
+	BLOOD UREA NITROGEN (BUN) <input type="text" name="de0"><div></div>
+	CREATININE - SERUM <input type="text" name="de1"><div></div>
+    URIC ACID <input type="text" name="de2"><div></div>
+    CALCIUM <input type="text" name="de3"><div></div>
+	<input type="submit" value="Update" name="submit">
+	</form>
+</div>
+<form action="img_upload" >
+	<input type="submit" value="Upload Another Image" name="submit">
+	</form>
+
+</body>
+</html>
